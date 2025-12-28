@@ -36,13 +36,15 @@ body {
 
 /* Products */
 .products {
-  display: grid;
+display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 80px;
+
+  /* ここがズレ防止 */
+  padding: 120px 24px;      /* ← 左右だけ小さくする */
+  justify-items: center;    /* ← 中央寄せ */
   max-width: 1100px;
   margin: 0 auto;
-  justify-items: center;
-  padding: 120px 24px;
 }
 
 .product-card {
