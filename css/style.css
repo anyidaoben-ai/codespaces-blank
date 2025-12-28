@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+/* Header */
+.header {
+  padding: 32px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.hero img {
+  width: 320px;
+  object-fit: contain;
+}
+
+/* Products */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 80px;
+  padding: 120px;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 260px;
+  margin-bottom: 24px;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.buy {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+
+/* Concept */
+.concept {
+  padding: 160px 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+}
